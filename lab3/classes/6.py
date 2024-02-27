@@ -1,5 +1,5 @@
 class filterprime:
-    def init(self, a):
+    def __init__(self, a):
         self.a = a
 
     def filter_prime(y):
@@ -20,7 +20,7 @@ a = [int(x) for x in input().split()]
 print(a)
 p = filterprime(a)
 class filterprime:
-    def init(self, a):
+    def __init__(self, a):
         self.a = a
 
     def filter_prime(y):
